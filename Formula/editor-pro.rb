@@ -2,18 +2,18 @@
 class EditorPro < Formula
   desc "Terminal-native, Vim-inspired code editor"
   homepage "https://github.com/perrness/editor-pro"
-  version "0.2.3"
+  version "0.2.4"
 
   depends_on macos: :sonoma
 
   on_arm do
-    url "https://github.com/perrness/editor-pro/releases/download/v0.2.3/editor-pro-v0.2.3-aarch64-apple-darwin.tar.gz"
-    sha256 "e92baea17a3ed4131a514fb166adf2af89a15af08f1bfe3ad8cc7d70d4e08618"
+    url "https://github.com/perrness/editor-pro/releases/download/v0.2.4/editor-pro-v0.2.4-aarch64-apple-darwin.tar.gz"
+    sha256 "5ebe0830c0342a3e082b844ee83b96652cd2dd339d9388b288367cdbde562603"
   end
 
   on_intel do
-    url "https://github.com/perrness/editor-pro/releases/download/v0.2.3/editor-pro-v0.2.3-x86_64-apple-darwin.tar.gz"
-    sha256 "fae89e62373a6c4db5ec615920a5f66b9d7adc1b171468b867b753de754bae4d"
+    url "https://github.com/perrness/editor-pro/releases/download/v0.2.4/editor-pro-v0.2.4-x86_64-apple-darwin.tar.gz"
+    sha256 "ed8bf4380069e4517e6d087231abf229f5c9eb8e4d1704795d8a6b0535626865"
   end
 
   def install
